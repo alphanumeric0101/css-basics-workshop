@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.gallery {
+    padding: 1em;
+    margin: auto;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 480px){
+    
+    .gallery img {
+        width: 43vw;
+    }
+    
+}
+
+@media screen and (min-width: 980px){
+    
+    .gallery img {
+        width: 30vw;
+        
+        
+    }
+    
+}

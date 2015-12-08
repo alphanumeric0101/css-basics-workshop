@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+container {
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.row > div {
+
+    border-radius: 4px;
+    background-color: mediumseagreen;
+    float: left;
+    padding: 10px;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+.small-1 {
+    width: 4.66666666666667%;
+}
+.small-2 {
+    width: 13.33333333333333%;
+}
+.small-3 {
+    width: 22%;
+}
+.small-4 {
+    width: 33%;
+}
+.small-6 {
+    width: 50%;
+}
+.small-8 {
+    width: 66%;
+}
+.small-12 {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 480px){
+    
+.medium-1 {
+    width: 4.66666666666667%;
+}
+.medium-2 {
+    width: 13.33333333333333%;
+}
+.medium-3 {
+    width: 22%;
+}
+.medium-4 {
+    width: 33%;
+}
+.medium-6 {
+    width: 50%;
+}
+.medium-8 {
+    width: 66%;
+}
+.medium-12 {
+    width: 100%;
+}
+    
+}
+
+@media screen and (min-width: 980px){
+    
+.large-1 {
+    width: 4.66666666666667%;
+}
+.large-2 {
+    width: 13.33333333333333%;
+}
+.large-3 {
+    width: 22%;
+}
+.large-4 {
+    width: 33%;
+}
+.large-6 {
+    width: 50%;
+}
+.large-8 {
+    width: 66%;
+}
+.large-12 {
+    width: 100%;
+}
+}
+
+/* Offsets */
+  .offset-by-one,
+  .offset-by-ones          { margin-left: 8.66666666667%; }
+  .offset-by-two { 
+      margin-left: 13.333333%; }
+  .offset-by-three,
+  .offset-by-threes        { margin-left: 26%;            }
+  .offset-by-four,
+  .offset-by-fours         { margin-left: 34.6666666667%; }
+  .offset-by-five,
+  .offset-by-fives         { margin-left: 43.3333333333%; }
+  .offset-by-six,
+  .offset-by-sixs          { margin-left: 52%;            }
+  .offset-by-seven,
+  .offset-by-sevens        { margin-left: 60.6666666667%; }
+  .offset-by-eight,
+  .offset-by-eights        { margin-left: 69.3333333333%; }
+  .offset-by-nine,
+  .offset-by-nines         { margin-left: 78.0%;          }
+  .offset-by-ten,
+  .offset-by-tens          { margin-left: 86.6666666667%; }
+  .offset-by-eleven,
+  .offset-by-elevens       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third,
+  .offset-by-one-thirds    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds,
+  .offset-by-two-thirdss   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half,
+  .offset-by-one-halfs     { margin-left: 52%; }

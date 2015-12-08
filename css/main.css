@@ -1,1 +1,44 @@
 /* write your css here */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(0,0,1);
+    background-color: rgba(0,0,1,0.8);
+    line-height: 1;
+    position: fixed;
+    width: 100%;
+    padding: 0.5em;
+}
+
+nav ul {
+}
+
+nav li {
+    display: inline-block;
+    border: solid 1px white;
+    border-radius: 2px;
+    padding: 0.5em;
+    list-style: none;
+}
+
+
+
+section {
+    background-color: rgba(0,0,1,1);
+    padding-top: 10vh;
+}

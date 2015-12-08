@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+article {
+    padding: 2vw;
+}
+
+@media screen and (min-width: 480px){
+    
+    article {
+        padding-top: 0;
+        width: 46vw;
+        display: inline-block;
+    }
+    
+    footer section {
+        padding-top: 0;
+        width: 46vw;
+        display: inline-block;
+    }
+    
+    footer h3 {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 980px){
+    article {
+        padding-top: 0;
+        width: 22vw;
+        display: inline-block;
+    }
+    
+    footer section {
+        padding-top: 0;
+        width: 40vw;
+        display: inline-block;
+    }
+    
+    footer h3 {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+}

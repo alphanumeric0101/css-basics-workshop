@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+    margin: 0;
+}
+
+.dialog-box {
+    background-color: #837E7C;
+    padding: 0.5em;
+}
+.dialog-box__title {
+    width: 80%;
+    float: left;
+    margin: 0 0 0 0.3em;
+
+}
+.dialog-box__content {
+    background-color: #f2f2f2;
+    margin: 2em 0.5em 0 0.5em;
+    padding: 0.1em;
+    text-align: left;
+    border-radius: 5px;
+}
+.dialog-box__close {
+    border: 2px solid white;
+    background-color: tomato;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-right: 0.5em;
+    border-radius: 20px;
+}
